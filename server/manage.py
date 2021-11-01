@@ -2,7 +2,7 @@
 CLI commands and utilities
 """
 
-from sentiment_server import create_app
+from server.sentiment_server import create_app
 
 app = create_app()
 
