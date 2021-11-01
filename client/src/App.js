@@ -5,7 +5,7 @@ function App() {
     return (
         <div className="gradient-background">
             <div className="main-box">
-                <Button variant="outlined">Hello world </Button>
+                <Button variant="outlined">Hello world - projekt </Button>
             </div>
         </div>
     );
