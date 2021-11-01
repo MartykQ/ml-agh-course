@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  app:
+    container_name: webapp-flask
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - FLASK_ENV=docker
+    ports:
+      - 5001:5000
+    volumes:
+      - .:/app
+    entrypoint:
+      - /app/scripts/docker_script.sh
