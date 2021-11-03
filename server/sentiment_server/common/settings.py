@@ -13,6 +13,6 @@ if path.exists(ENV_FILE):
     envir.read_env()
 else:
     print("Error .env file not found")
-    sys.exit(1)
+    # sys.exit(1)
 
 YOUTUBE_TOKEN = envir('YOUTUBE_TOKEN')
