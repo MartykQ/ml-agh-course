@@ -1,0 +1,123 @@
+21.Nov.03 17:07:16 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:07:17 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:17:24 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:17:24 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:18:42 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:43 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:18:43 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:43 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMzh5Y2VDUDNDanpLbnhZU21mcWJfZ2d1aXZWOWhCLTFKOTU0blBJYU1kWXZENENxbUJxZngyWWZ5clhtZUN1VHpOOXRRN0RiQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:43 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:44 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pM2lVdE9hejlqSXZDcmY2Y0lvQVFCekRoTzd1TU5tLVZ5LUN6Szl2X0F1MGZtNzdPVFhyVldfbjRLSE5VTjhaUGxpUlBSQjIzNA== HTTP/1.1" 200 None
+21.Nov.03 17:18:44 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:44 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMzNZdE1qQmZWbTc1ajZxcVRLZjBxeWFtSWhNNElERnFmTmtTczVTeXZfTHo1ZjdRdVdOVGRGU3c1eFk3QXJZVU94M3g4S080RQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:44 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:44 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMFBMVlFZb2dpUVBQaG8yMVY0eXhOUWtUUlhKQlJSaUwwaXB4OGpHZmVja3RxSVZwVl9MYzJXcmgycHhqMU1oTDVNSFd2LUdRaw== HTTP/1.1" 200 None
+21.Nov.03 17:18:44 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:45 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMkx6cjFQUDROUG5jTG40YnpxU0p1QmFxRlNoOVl4MHNYbkJhQUxzN3UzRGJlbkZaZWRsSy1TdXhVa1RMNkVpY2VjNWI3cjM4dw== HTTP/1.1" 200 None
+21.Nov.03 17:18:45 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:45 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMXV4cHVJZjZmRnJlRFVCN0ttaHFqWkZfU05BZjRhMXJYS0FZcS05d2VqMm5hd3VvNkJaQUcyV0tPOHJFdXR0UG5QTGQ2NEhPOA== HTTP/1.1" 200 None
+21.Nov.03 17:18:45 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:46 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:46 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:46 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:46 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:46 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:46 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:46 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:46 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:47 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:47 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:47 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:47 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:47 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:47 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:47 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:47 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:47 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:47 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:48 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:48 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:48 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:48 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:48 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:18:48 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:18:48 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=bNxIEXN8yBM&maxResults=50&pageToken=QURTSl9pMG5GMnF5Nmt3d3RGU1JscWlwU18zQ1VSd2hFLUttQzJhbnl1cHplWUxqbFNWdDUzYlU3bW9oQjFkbU5HRVowb0pBSVEzSm9lQQ== HTTP/1.1" 200 None
+21.Nov.03 17:19:27 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:27 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:27 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:27 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:27 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:28 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:28 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:28 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:28 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:28 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:28 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:28 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:28 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:28 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:28 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:28 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:28 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:29 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:29 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:29 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:29 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:29 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:19:29 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:52 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:19:52 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:20:31 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:20:31 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:21:03 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:03 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:21:03 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:04 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50&pageToken=QURTSl9pMHNKM1d1OGVta3ZkdGR5N2JLcmMxcXB4R2RPUnpBOXU3c3A1eEVhUlVPMkpUcFVsQ2dKY3Z3SEh5VXJicTl1YXhmSl9BZjJ1RQ== HTTP/1.1" 200 None
+21.Nov.03 17:21:04 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:05 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50&pageToken=QURTSl9pM1ZUZU5xNmtZVXFmM3NrX1J1V0V0Z0EyMTRZV1RLYmh6aXRBNTdneWhtRDMxVk93WGZpYXlZeDRQWVd0LVBnMEJmR016cG54TQ== HTTP/1.1" 200 None
+21.Nov.03 17:21:05 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:05 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50&pageToken=QURTSl9pM1dXUy1QQy1UTFVpQ1BVUUgwUFFMc05wNXk2LS1MSWhvUmpjRnlUSUZWVVVLMDEtRmdLLUQ0VFg5azdoa2ZBbXpoalk2STZnYw== HTTP/1.1" 200 None
+21.Nov.03 17:21:28 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:29 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50 HTTP/1.1" 200 None
+21.Nov.03 17:21:29 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:29 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50&pageToken=QURTSl9pMVBaNDVkRS1JaDBwYnByLVR3Yl9nZUdEUkNnVDEyN0dTaDVJM3lYNU0ybHpmWUFfQl9KQmFRWDZNOUl5V2NfZUcxeEVOaTJISQ== HTTP/1.1" 200 None
+21.Nov.03 17:21:29 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:29 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50&pageToken=QURTSl9pMEZBaE9yU092eFpfdnRob0VXSzUzUGt5cFRPMlFFb2pUUDRxcTJPejg4MDdZN2lpcHNDWmROWWEtRFpCOWk5Y0cyWWZOdUJ4RQ== HTTP/1.1" 200 None
+21.Nov.03 17:21:29 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:21:30 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=50&pageToken=QURTSl9pM2JNMkk3SFNLcmtmWUJ5dkRZRDdudXRBMmNETWlpd1ZLdHRlNTVSbGd3RFJTUWFYZmNMbHhuajM0OGRGZ1VmOGl1Z3o5X2Fudw== HTTP/1.1" 200 None
+21.Nov.03 17:25:21 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:25:21 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=None&maxResults=100 HTTP/1.1" 404 None
+21.Nov.03 17:26:58 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:26:58 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=100 HTTP/1.1" 200 None
+21.Nov.03 17:29:59 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:29:59 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=100 HTTP/1.1" 200 None
+21.Nov.03 17:29:59 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:30:00 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=Rv8m8lZtsxM&maxResults=100&pageToken=QURTSl9pMTBDU1VPOUF0bk0zNmZLQnNkXzNaVXdxSUpKelJHeWIzaG1fVWJBZFQybTJ5WUoyTkIzWmtHRTV5TjhxX1oyTGRzYXZsaWI4Zw== HTTP/1.1" 200 None
+21.Nov.03 17:40:27 [INFO]  * Restarting with stat
+21.Nov.03 17:40:27 [WARNING]  * Debugger is active!
+21.Nov.03 17:40:27 [INFO]  * Debugger PIN: 134-656-274
+21.Nov.03 17:40:28 [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21.Nov.03 17:40:35 [INFO]  * Restarting with stat
+21.Nov.03 17:40:36 [WARNING]  * Debugger is active!
+21.Nov.03 17:40:36 [INFO]  * Debugger PIN: 134-656-274
+21.Nov.03 17:40:39 [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21.Nov.03 17:41:10 [INFO] 127.0.0.1 - - [03/Nov/2021 17:41:10] "[33mPOST /youtube_comments HTTP/1.1[0m" 404 -
+21.Nov.03 17:41:41 [INFO]  * Restarting with stat
+21.Nov.03 17:41:42 [WARNING]  * Debugger is active!
+21.Nov.03 17:41:42 [INFO]  * Debugger PIN: 134-656-274
+21.Nov.03 17:41:44 [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21.Nov.03 17:42:34 [INFO]  * Detected change in 'C:\\Users\\fmart\\Desktop\\ml-agh-course\\server\\sentiment_server\\routes\\api_routes.py', reloading
+21.Nov.03 17:42:34 [INFO]  * Restarting with stat
+21.Nov.03 17:42:35 [WARNING]  * Debugger is active!
+21.Nov.03 17:42:35 [INFO]  * Debugger PIN: 134-656-274
+21.Nov.03 17:42:37 [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21.Nov.03 17:42:54 [INFO]  * Restarting with stat
+21.Nov.03 17:42:55 [WARNING]  * Debugger is active!
+21.Nov.03 17:42:55 [INFO]  * Debugger PIN: 134-656-274
+21.Nov.03 17:42:56 [INFO]  * Restarting with stat
+21.Nov.03 17:42:57 [WARNING]  * Debugger is active!
+21.Nov.03 17:42:57 [INFO]  * Debugger PIN: 134-656-274
+21.Nov.03 17:42:58 [INFO]  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+21.Nov.03 17:42:59 [DEBUG] Starting new HTTPS connection (1): www.googleapis.com:443
+21.Nov.03 17:42:59 [DEBUG] https://www.googleapis.com:443 "GET /youtube/v3/commentThreads?key=AIzaSyBT9me8fSasjvAMlwRAWL5KKNXhdHHzy8U&textFormat=plainText&part=snippet&videoId=cqdVBhPp_xk&maxResults=100 HTTP/1.1" 200 None
+21.Nov.03 17:42:59 [INFO] 127.0.0.1 - - [03/Nov/2021 17:42:59] "POST /youtube_comments HTTP/1.1" 200 -
