@@ -1,8 +1,13 @@
 import { chainPropTypes } from "@mui/utils";
 import axios from "../../constants";
 import { useState } from "react";
+import MyModal from "../MyModal/MyModal";
+
 const YoutubeSource = () => {
     const [comments, setComments] = useState([]);
+
+    const [modal, setModal] = useState(false);
+    const ToggleModdle = () => setModal(!modal);
 
     const handleClick = () => {
         console.log(process.env.ENV_VARIABLE);
@@ -17,6 +22,7 @@ const YoutubeSource = () => {
 
     return (
         <>
+            <MyModal show={modal} close={ToggleModdle}></MyModal>
             <div>YT Source</div>
             <div onClick={() => handleClick()}>click me!</div>
             {comments.map((comment, index) => {
