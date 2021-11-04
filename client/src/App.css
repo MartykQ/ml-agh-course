@@ -22,7 +22,10 @@
 }
 
 .main-box {
-    border: 1px solid black;
     width: 50%;
     height: 50%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
 }
