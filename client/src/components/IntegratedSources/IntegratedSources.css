@@ -1,18 +1,18 @@
 .box {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: grid;
     grid-template-rows: 1fr 3fr;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .modal {
+    padding: 20px;
 }
 
 .headerOption {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .active {
