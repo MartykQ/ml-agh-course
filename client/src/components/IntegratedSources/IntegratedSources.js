@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import "./IntegratedSources.css";
 import YoutubeSource from "../YoutubeSource/YoutubeSource";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import Tabs from "@mui/material/Tabs";
+import Tab from "@mui/material/Tab";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 
 const IntegratedSources = () => {
     const [activeName, setActiveName] = useState("YT");
@@ -9,14 +14,20 @@ const IntegratedSources = () => {
         setActiveName(option);
     };
 
+    const [value, setValue] = React.useState(0);
+
+    const handleChange = (event, newValue) => {
+        setValue(newValue);
+    };
+
     const activeComponent = () => {
         console.log(activeName);
-        switch (activeName) {
-            case "YT":
+        switch (value) {
+            case 0:
                 return <YoutubeSource />;
-            case "Placeholder":
+            case 1:
                 return <div>Placeholder 1</div>;
-            case "Placeholder2":
+            case 2:
                 return <div>Placeholder 2</div>;
         }
     };
@@ -25,24 +36,13 @@ const IntegratedSources = () => {
     return (
         <div className="box">
             <div className="header">
-                <div
-                    className={"headerOption " + (activeName == "YT" ? "active" : "inactive")}
-                    onClick={() => setActiveName("YT")}
-                >
-                    YT
-                </div>
-                <div
-                    className={"headerOption " + (activeName == "Placeholder" ? "active" : "inactive")}
-                    onClick={() => setActiveName("Placeholder")}
-                >
-                    Placeholder
-                </div>
-                <div
-                    className={"headerOption " + (activeName == "Placeholder2" ? "active" : "inactive")}
-                    onClick={() => setActiveName("Placeholder2")}
-                >
-                    Placeholder2
-                </div>
+                <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+                    <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                        <Tab icon={<YouTubeIcon />} iconPosition="start" label="yt" />
+                        <Tab label="Item Two" />
+                        <Tab label="Item Three" />
+                    </Tabs>
+                </Box>
             </div>
             <div className="modal">{activeComponent()}</div>
         </div>

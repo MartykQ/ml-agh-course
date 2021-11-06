@@ -11,6 +11,11 @@ function App() {
 
     return (
         <div className="gradient-background">
+            <div className="info">
+                <div>Projekt zaliczeniowy UM 2021/2020 &copy;</div>
+                <div>Franciszek Martyka</div>
+                <div>Bartosz Nguyen Van</div>
+            </div>
             <div className="main-box">
                 <div>
                     <MainPanel />
