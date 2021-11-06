@@ -50,7 +50,7 @@ const MainPanel = () => {
                 </div>
             </div>
             <MyModal show={modal} close={ToggleModdle}>
-                ASDASD
+                Tutaj bedzie ocenka opinii
             </MyModal>
         </div>
     );
