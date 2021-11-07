@@ -12,3 +12,4 @@ envir = Env()
 envir.read_env()
 
 YOUTUBE_TOKEN = envir('YOUTUBE_TOKEN')
+TWITTER_BEARER_TOKEN = envir('TWITTER_BEARER_TOKEN')
