@@ -6,6 +6,8 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import TwitterSource from "../TwitterSource/TwitterSource";
 
 const IntegratedSources = () => {
     const [activeName, setActiveName] = useState("YT");
@@ -26,7 +28,7 @@ const IntegratedSources = () => {
             case 0:
                 return <YoutubeSource />;
             case 1:
-                return <div>Placeholder 1</div>;
+                return <TwitterSource />;
             case 2:
                 return <div>Placeholder 2</div>;
         }
@@ -38,8 +40,8 @@ const IntegratedSources = () => {
             <div className="header">
                 <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-                        <Tab icon={<YouTubeIcon />} iconPosition="start" label="yt" />
-                        <Tab label="Item Two" />
+                        <Tab icon={<YouTubeIcon />} iconPosition="start" label="Youtube" />
+                        <Tab icon={<TwitterIcon />} iconPosition="start" label="Twitter" />
                         <Tab label="Item Three" />
                     </Tabs>
                 </Box>
