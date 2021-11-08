@@ -17,7 +17,7 @@ function App() {
                 <div>Bartosz Nguyen Van</div>
             </div>
             <div className="main-box">
-                <div>
+                <div className="mainPanelWrapper2">
                     <MainPanel />
                 </div>
                 <IntegratedSources />
