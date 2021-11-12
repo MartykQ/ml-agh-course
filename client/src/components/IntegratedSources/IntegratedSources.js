@@ -29,8 +29,6 @@ const IntegratedSources = () => {
                 return <YoutubeSource />;
             case 1:
                 return <TwitterSource />;
-            case 2:
-                return <div>Placeholder 2</div>;
         }
     };
 
@@ -42,7 +40,6 @@ const IntegratedSources = () => {
                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                         <Tab icon={<YouTubeIcon />} iconPosition="start" label="Youtube" />
                         <Tab icon={<TwitterIcon />} iconPosition="start" label="Twitter" />
-                        <Tab label="Item Three" />
                     </Tabs>
                 </Box>
             </div>
