@@ -20,4 +20,10 @@
         backdrop-filter: blur(5px);
         box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
     }
+
+    .modal_content {
+        height: 90%;
+        overflow: scroll;
+        border: 1px solid black;
+    }
 }

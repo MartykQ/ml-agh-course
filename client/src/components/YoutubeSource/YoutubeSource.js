@@ -7,7 +7,10 @@ import TextField from "@mui/material/TextField";
 import SendIcon from "@mui/icons-material/Send";
 import "./YoutubeSource.css";
 
-const YoutubeSource = () => {
+import PredictedComment from "../PredictedComment/PredictedComment";
+import StatsSummary from "../StatsSummary/StatsSummary";
+
+const YoutubeSource = (props) => {
     const [comments, setComments] = useState([]);
     const [inputText, setInputText] = useState("");
     const [modal, setModal] = useState(false);
@@ -16,11 +19,15 @@ const YoutubeSource = () => {
 
     const handleClick = () => {
         setisLoading(true);
+
+        let _url = props.ibmModel ? "/ibm_youtube_comments" : "/youtube_comments";
+        console.log(_url);
         axios
-            .post("/youtube_comments", {
+            .post(_url, {
                 url: inputText,
             })
             .then((res) => {
+                console.log(res);
                 setComments(res["data"]);
                 setisLoading(false);
                 setModal(true);
@@ -34,9 +41,13 @@ const YoutubeSource = () => {
     return (
         <>
             <MyModal show={modal} close={ToggleModdle}>
-                {" "}
+                <StatsSummary comments={comments} />
                 {comments.map((comment, index) => {
-                    return <div key={index}>{comment}</div>;
+                    return (
+                        <div key={index}>
+                            <PredictedComment text={comment.text} label={comment.label} />
+                        </div>
+                    );
                 })}
             </MyModal>
             <div className="inputButtonWrapper">
