@@ -1,7 +1,7 @@
-FROM python:3.6.8
+FROM python:3.8.8
 
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-RUN chmod +x /app/scripts/docker_script.sh
+RUN chmod +x /app/scripts/run_server.sh
 ENV FLASK_ENV=docker
