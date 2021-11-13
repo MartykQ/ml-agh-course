@@ -38,6 +38,10 @@ const MainPanel = (props) => {
                 setComments(res["data"]);
                 setisLoading(false);
                 setModal(true);
+            })
+            .catch(() => {
+                alert("blad");
+                setisLoading(false);
             });
     };
 
@@ -60,7 +64,7 @@ const MainPanel = (props) => {
                     <div className="buttonWrapper">
                         <LoadingButton
                             endIcon={<SendIcon />}
-                            loading={false}
+                            loading={isLoading}
                             loadingPosition="end"
                             variant="contained"
                             onClick={handleClick}

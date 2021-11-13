@@ -29,6 +29,10 @@ const TwitterSource = (props) => {
                 setComments(res["data"]);
                 setisLoading(false);
                 setModal(true);
+            })
+            .catch(() => {
+                alert("blad");
+                setisLoading(false);
             });
     };
 

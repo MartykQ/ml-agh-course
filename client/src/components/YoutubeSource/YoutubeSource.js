@@ -31,6 +31,10 @@ const YoutubeSource = (props) => {
                 setComments(res["data"]);
                 setisLoading(false);
                 setModal(true);
+            })
+            .catch(() => {
+                alert("blad");
+                setisLoading(false);
             });
     };
 

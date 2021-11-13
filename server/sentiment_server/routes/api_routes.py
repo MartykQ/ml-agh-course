@@ -22,7 +22,10 @@ def single():
 def ibm_single():
     data = request.json
     text = data['text']
-    return jsonify(translate_and_perdict([text]))
+    return jsonify({
+        "text": text,
+        "label": translate_and_perdict([text])[0]['label']
+    })
 
 
 @api_routes.route("/youtube_comments", methods=['POST'])
