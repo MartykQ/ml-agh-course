@@ -31,7 +31,12 @@ def get_replies_to_tweet(tweet_id: str) -> List[dict]:
     url = f"https://api.twitter.com/2/tweets/search/recent?query=conversation_id:{tweet_id}&max_results=100"
     headers = {'Authorization': f'Bearer {TWITTER_BEARER_TOKEN}'}
     response = requests.request("GET", url, headers=headers)
-    return response.json()['data']
+
+    try:
+        potential_response = response.json()['data']
+        return potential_response
+    except KeyError as err:
+        raise EmptyTwitterReplies
 
 
 def get_username_from_url(url: str) -> str:
@@ -43,5 +48,16 @@ def get_last_replies_from_url(url: str) -> List[str]:
     uid = get_user_id_from_name(username)
 
     tweets = get_last_tweets_of_user(user_id=uid)
-    replies = get_replies_to_tweet(tweets[0]['id'])
-    return [r['text'].replace(f"@{username}", "") for r in replies]
+
+    for tweet in tweets:
+        try:
+            replies = get_replies_to_tweet(tweet['id'])
+            return [r['text'].replace(f"@{username}", "") for r in replies]
+        except EmptyTwitterReplies:
+            pass
+
+    return []
+
+
+class EmptyTwitterReplies(Exception):
+    pass
