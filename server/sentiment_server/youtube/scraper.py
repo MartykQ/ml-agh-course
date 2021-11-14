@@ -1,4 +1,5 @@
 import requests
+
 from server.sentiment_server.common.settings import YOUTUBE_TOKEN
 
 
@@ -26,12 +27,8 @@ def get_youtube_comments(url: str, max_pages: int = 20) -> list:
 
 
 def get_video_id_from_url(url: str) -> str:
-    # https://www.youtube.com/watch?v=Rv8m8lZtsxM
     return url.split("watch?v=")[1]
 
 
 def unpack_comments(raw_res) -> list:
     return [item['snippet']['topLevelComment']['snippet']['textOriginal'] for item in raw_res.get('items')]
-
-
-

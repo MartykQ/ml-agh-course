@@ -1,5 +1,3 @@
-import sys
-from os import path
 from environs import Env
 
 LOGGING_FILE = "flask.log"

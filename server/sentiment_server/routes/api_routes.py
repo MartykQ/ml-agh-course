@@ -1,9 +1,9 @@
 from flask import Blueprint, jsonify, request
 
-from server.sentiment_server.youtube.scraper import get_youtube_comments
-from server.sentiment_server.twitter.scrapper import get_last_replies_from_url
-from server.sentiment_server.ibm_watson.predicotr import translate_and_perdict
 from model.predict import predict
+from server.sentiment_server.ibm_watson.predicotr import translate_and_perdict
+from server.sentiment_server.twitter.scrapper import get_last_replies_from_url
+from server.sentiment_server.youtube.scraper import get_youtube_comments
 
 api_routes = Blueprint('api_routes', __name__)
 
