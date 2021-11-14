@@ -9,7 +9,7 @@ import Box from "@mui/material/Box";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import TwitterSource from "../TwitterSource/TwitterSource";
 
-const IntegratedSources = () => {
+const IntegratedSources = (props) => {
     const [activeName, setActiveName] = useState("YT");
 
     const chooseActive = (option) => {
@@ -26,9 +26,9 @@ const IntegratedSources = () => {
         console.log(activeName);
         switch (value) {
             case 0:
-                return <YoutubeSource />;
+                return <YoutubeSource ibmModel={props.ibmModel} />;
             case 1:
-                return <TwitterSource />;
+                return <TwitterSource ibmModel={props.ibmModel} />;
         }
     };
 
@@ -39,7 +39,7 @@ const IntegratedSources = () => {
                 <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
                         <Tab icon={<YouTubeIcon />} iconPosition="start" label="Youtube" />
-                        <Tab icon={<TwitterIcon />} iconPosition="start" label="Twitter" />
+                        <Tab icon={<TwitterIcon ibmModel={props.ibmModel} />} iconPosition="start" label="Twitter" />
                     </Tabs>
                 </Box>
             </div>
