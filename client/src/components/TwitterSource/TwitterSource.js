@@ -7,7 +7,10 @@ import TextField from "@mui/material/TextField";
 import SendIcon from "@mui/icons-material/Send";
 import "./TwitterSource.css";
 
-const TwitterSource = () => {
+import PredictedComment from "../PredictedComment/PredictedComment";
+import StatsSummary from "../StatsSummary/StatsSummary";
+
+const TwitterSource = (props) => {
     const [comments, setComments] = useState([]);
     const [inputText, setInputText] = useState("");
     const [modal, setModal] = useState(false);
@@ -16,14 +19,20 @@ const TwitterSource = () => {
 
     const handleClick = () => {
         setisLoading(true);
+        let _url = props.ibmModel ? "/ibm_tweets" : "/tweets";
+        console.log(_url);
         axios
-            .post("/tweets", {
+            .post(_url, {
                 url: inputText,
             })
             .then((res) => {
                 setComments(res["data"]);
                 setisLoading(false);
                 setModal(true);
+            })
+            .catch(() => {
+                alert("blad");
+                setisLoading(false);
             });
     };
 
@@ -34,9 +43,13 @@ const TwitterSource = () => {
     return (
         <>
             <MyModal show={modal} close={ToggleModdle}>
-                {" "}
+                <StatsSummary comments={comments} />
                 {comments.map((comment, index) => {
-                    return <div key={index}>{comment}</div>;
+                    return (
+                        <div key={index}>
+                            <PredictedComment text={comment.text} label={comment.label} />
+                        </div>
+                    );
                 })}
             </MyModal>
             <div className="inputButtonWrapper">

@@ -5,9 +5,17 @@ import MyModal from "./components/MyModal/MyModal";
 import MainPanel from "./components/MainPanel/MainPanel";
 import { useState } from "react";
 
+import Switch from "@mui/material/Switch";
+
 function App() {
     const [modal, setModal] = useState(false);
     const ToggleModdle = () => setModal(!modal);
+
+    const [ibmModel, setIbmModel] = useState(false);
+
+    const handleSwitchChange = () => {
+        setIbmModel(!ibmModel);
+    };
 
     return (
         <div className="gradient-background">
@@ -16,11 +24,15 @@ function App() {
                 <div>Franciszek Martyka</div>
                 <div>Bartosz Nguyen Van</div>
             </div>
+            <div className="modelSwitch">
+                <Switch onChange={handleSwitchChange} />
+                {ibmModel ? "IBM WatsonAI model" : "Dafult model"}
+            </div>
             <div className="main-box">
                 <div className="mainPanelWrapper2">
-                    <MainPanel />
+                    <MainPanel ibmModel={ibmModel} />
                 </div>
-                <IntegratedSources />
+                <IntegratedSources ibmModel={ibmModel} />
             </div>
             <MyModal show={modal} close={ToggleModdle} />
         </div>

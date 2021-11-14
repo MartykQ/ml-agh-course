@@ -1,0 +1,6 @@
+.predictedCommentWrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.048);
+}
