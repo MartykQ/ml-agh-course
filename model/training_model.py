@@ -14,8 +14,6 @@ from gensim.models import Word2Vec, KeyedVectors, word2vec
 import gensim
 from gensim.utils import simple_preprocess
 from tensorflow.keras.utils import to_categorical
-import pickle
-import h5py
 from time import time
 
 
@@ -36,7 +34,28 @@ dataset = dataset[dataset['description'].notnull() & dataset['rate'].notnull()]
 dataset['description'] = dataset['description'].str.lower()
 
 
+#print(dataset.count())
 
+temp = dataset.groupby('rate').count()['description'].reset_index().sort_values(by='description',ascending=False)
+
+#print(temp)
+
+#making dataset more symmetric
+
+dataset_negative = dataset[dataset['rate'] == -1.0]
+#print(dataset_negative.count())
+dataset_positive = dataset[dataset['rate'] == 1.0]
+#print(dataset_positive.count())
+dataset_neutral = dataset[dataset['rate'] == 0.0]
+#print(dataset_neutral.count())
+
+dataset_positive_cut = dataset_positive[:183391]
+#print(dataset_positive_cut.count())
+#print(dataset_positive_cut.count())
+frames = [dataset_positive_cut, dataset_negative, dataset_neutral]
+
+dataset = pd.concat(frames)
+#print(dataset.count())
 #print(dataset.head())
 
 X = dataset['description']
